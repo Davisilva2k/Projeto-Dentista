@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Consultório Dentista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.CSS">
+</head>
+
+<body>
+    <div id="home"></div>
+    <header id="cabecalho">
+        <div class="container-cabecalho">
+            <div class="logo">
+            </div>
+            <picture>
+                <!-- <img id="img-logo" src="IMAGENS/Logo_Certo.PNG" alt="logo"> -->
+            </picture>
+
+            <nav class="nav-bar">
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#galeria" class="nav-link">Galeria</a></li>
+                        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="login-button">
+                    <button><a href="#cadastro">Entrar</a></button>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="IMAGENS/menu.jpg" alt="menu"></button>
+                </div>
+                <div class="mobile-menu">
+                    <ul>
+                        <li class="nav-item"><a href="#promo" class="nav-link">Promoção</a></li>
+                        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <section class="banner">
+        <div id="container_listaServicos">
+            <h1>Serviços Oferecidos </h1>
+            <div id="lista_servicos">
+                <ul>
+                    <li>*Clareamento Dental</li>
+                    <li>*Limpeza dentária</li>
+                    <li>*Implantes Dentários</li>
+                    <!-- Espaço de quebra de linha -->
+                    <br>
+                    <p id="p_servicos">Abaixo alguns exemplos <br> dos serviços Oferecidos:
+                    </p>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div id="galeria">
+            <div class="container">
+                <!-- Slides -->
+                <div class="slide">
+                    <img src="IMAGENS/Servico_clareamento.webp" alt="Clareamento dental ">
+                    <div class="slide-descricao">
+                        <h3>Clareamento Dental</h3>
+                        <p> Clareamento Dental para maior confiança !!<br>
+                            O clareamento dental é um tratamento estético que deixa os dentes mais brancos<br>
+                            com um investimento mais Baixo.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="IMAGENS/servico_limpeza.jpg" alt="Limpeza Dentária">
+                    <div class="slide-descricao">
+                        <h4> Limpeza Dentária </h4>
+                        <p>A limpeza dental, também conhecida como profilaxia dental <br>
+                            é um procedimento realizado por dentistas que tem como objetivo a higienização profissional
+                            dos dentes.<br>
+                            A limpeza dental serve para: <br> <br>
+                            * Prevenir o aparecimento de manchas nos dentes <br>
+                            *Combater o mau hálito <br>
+                            *Evitar o aparecimento de doenças como gengivite, periodontite e cárie <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="IMAGENS/servico_implante.webp" alt="implante ">
+                    <div class="slide-descricao">
+                        <h5>Implante Dentário </h5>
+                        <p>O implante dentário é um dispositivo de titânio que serve para substituir a raiz de um dente perdido<br>
+                         e dar suporte a uma prótese dentária. É indicado para pacientes que perderam um ou mais dentes, seja de forma parcial ou total.<br>
+                         Os implantes dentários são considerados uma das melhores alternativas para substituir dentes perdidos de forma fixa.<br>
+                         Eles oferecem uma ancoragem segura para as próteses, permitindo que elas funcionem e pareçam naturais. </p>
+                    </div>
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+    </section>
+    <section class="form-section">
+        <div class="container-cadastro">
+            <h2>Receba Novidades da Inauguração</h2>
+            <form id="form-captacao" action="https:formsubmit.co/davigraff05@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/cadastro.html">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="Mensagem">Mensagem</label>
+                <input type="mensagen">  
+                <button type="submit">Cadastre-se</button>
+            </form>
+
+        </div>
+    </section>
+    <section class="countdown">
+        <div class="container-cronometro">
+            <h6>Contagem Regressiva para a Inauguração</h6>
+            <div id="countdown"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <h7>Loja de Informática</h7>
+                <p>Endereço da loja: Sapucaia do sul - RS</p>
+                <p>Telefone: (51) 99497-7151</p>
+            </div>
+
+            <div id="Contato-1">
+                <div class="footer-social">
+                    <h9>Redes Sociais</h9>
+                    <!-- <ul>
+                        <li><a href="https://www.linkedin.com/in/davi-silva-0a0504243/"><img
+                                    src="IMAGENS/icon-linkedin.png" alt="linkedin"></a></li>
+                        <li><a href="https://github.com/Davisilva2k"><img src="IMAGENS/icon-gitHub.png"
+                                    alt="GitHub"></a></li>
+                        <li><a href="https://www.instagram.com/06_silvaa/?next=%2F"><img src="IMAGENS/icon-insta.png"
+                                    alt="Instagram"></a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.JS"></script>
+</body>
+
+</html>
