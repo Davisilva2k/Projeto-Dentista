@@ -1,7 +1,7 @@
 # Nome do Projeto
-Loja de Roupa 
+Consultório Dentista
 ## Integrantes
-
+1-Davi graff da rosa silva 
 <img src="IMAGENS/img-rosto.jpg" width="100" height="100">
 
 [Davi Graff Da Rosa Silva](https://github.com/Davisilva2k)
@@ -12,7 +12,7 @@ Loja de Roupa
 ## Índice
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Badges](#badges)
-- [...](#...)
+- []()
 - [...](#...)
 - [...](#...)
 - [...](#...)

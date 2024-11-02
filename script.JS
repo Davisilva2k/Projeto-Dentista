@@ -62,7 +62,7 @@ document.addEventListener('keydown', function(event) {
 });
 
 // Contagem regressiva para a inauguração
-let countDownDate = new Date("July 18, 2024 23:59:00").getTime();
+let countDownDate = new Date("november 02, 2024 23:59:00").getTime();
 
 let x = setInterval(function () {
     let now = new Date().getTime();
